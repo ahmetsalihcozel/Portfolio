@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ahmet Salih - Portfolyo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Ahmet Salih Çözel</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/ahmetsalihcozel" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/ahmetsalihcozel/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ahmet-salih-cozel/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="./index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Giriş</span></a></li>
+          <li><a href="./index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hakkımda</span></a></li>
+          <li><a href="./index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Özgeçmiş</span></a></li>
+          <li><a href="./index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolyo</span></a></li>
+          <li><a href="./index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>İletişim</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfolyo Detayları</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Portfolyo Detayları</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+
+                  <img src="assets/img/portfolio/myimg/riot.gif" alt="">
+
+            <md-block>
+              # RIOT API ile Oyuncu Arama
+              <br>
+
+              Bu proje, League of Legends hesap arama uygulaması için yazılmış bir JavaScript, HTML ve CSS dosyası içerir. API kullanımı konusunda tecrübe edinme amaçlı yazdığım bir deneme projesidir. Dosya içindeki kodlar HTML sayfasındaki elementlere erişerek bu elementlerin değerlerini değiştirir. 
+              <br><br>
+
+              ## Proje içerisindeki JavaScript fonksiyonları şunlardır:
+              <br>
+
+              - getSummonerData(): Bu fonksiyon, kullanıcının girdiği isimle bir hesap arar ve bu hesabın seviyesi, ligi ve lig seviyesi gibi bilgileri gösterir.
+              <br><br>
+              - getMatchHistory(): Bu fonksiyon, kullanıcının girdiği isimle bir hesap arar ve bu hesabın son 10 maçını gösterir.
+              <br>
+              <br>
+              - getChampionIcon(): Bu fonksiyon, kullanıcının son 10 maçında kullandığı şampiyonların resimlerini gösterir.
+              <br>
+              <br>
+              - getItemIcon(): Bu fonksiyon, kullanıcının son 10 maçında kullandığı itemlerin resimlerini gösterir.
+              <br><br>
+
+              ## Proje içerisindeki event listener’lar şunlardır:<br>
+
+              - buttonSearch.addEventListener('click', getSummonerData): Bu event listener, “Hesap Ara” butonuna tıklandığında getSummonerData() fonksiyonunu çağırır.<br><br>
+              - buttonFlex.addEventListener('click', getMatchHistory): Bu event listener, “Dereceli 5v5 Esnek” butonuna tıklandığında getMatchHistory() fonksiyonunu çağırır.<br><br>
+              - buttonSolo.addEventListener('click', getMatchHistory): Bu event listener, “Dereceli 5v5 Tekli” butonuna tıklandığında getMatchHistory() fonksiyonunu çağırır.<br><br>
+              - buttonNomral.addEventListener('click', getMatchHistory): Bu event listener, “Normal 5v5” butonuna tıklandığında getMatchHistory() fonksiyonunu çağırır.<br><br>
+
+              Dosya içindeki kodlar HTML sayfasındaki elementlere erişerek bu elementlerin değerlerini değiştirir. Örneğin; document.getElementById("accName").innerHTML = summonerName; kodu ile HTML sayfasındaki “accName” id’li elementin içeriği değiştirilir."
+
+              Bu proje ile birlikte ilk defa bir API kullanarak promise, fetch, axios, await, sync, gibi kavramlarla ilgili bilgi edindim. Edindiğim bilgileri bu deneme projesinde uyguladım. JavaScript ile html objelerine erişim konusunda kendimi ileriye taşıdım.
+              İlk css denemelerimi yaptım. Html mantığını oturtmaya çalıştım. Özetle bu proje, HTML, CSS, BOOTSTRAP ve .JS teknolojileri ile geliştirdiğim deneme yanılma yöntemleri ile bir çok şey öğrendiğim ilk web sitesi demo projem oldu.
+
+              Projenin kodlarına bu ["GitHub Linki"](https://github.com/ahmetsalihcozel/Riot_Test_Project "RIOTAPI")'ne tıklayarak ulaşabilirsiniz.
+            </md-block>
+
+
+
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Proje Bilgisi</h3>
+              <ul>
+                <li><strong>Kategori</strong>: Web Sitesi Tasarımı</li>
+                <li><strong>Proje Tarihi</strong>: Şubat, 2023</li>
+                <li><strong>Proje Hedefi</strong>: API Kullanımlarını Gerçekleştirmek. Axios, Fetch, Sync, Async, Promise, Then, 
+                  EventListeners</li>     
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
