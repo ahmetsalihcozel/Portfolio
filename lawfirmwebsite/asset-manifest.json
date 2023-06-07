@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6eb1e6f.css",
+    "main.js": "/static/js/main.dc79625f.js",
+    "static/media/library3.png": "/static/media/library3.726eb849c3bfd2ae4e12.png",
+    "static/media/collumns.png": "/static/media/collumns.06d500395515ef95bd4d.png",
+    "static/media/PinyonScript-Regular.ttf": "/static/media/PinyonScript-Regular.8d81e07e5bc82ec02bf7.ttf",
+    "index.html": "/index.html",
+    "main.f6eb1e6f.css.map": "/static/css/main.f6eb1e6f.css.map",
+    "main.dc79625f.js.map": "/static/js/main.dc79625f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6eb1e6f.css",
+    "static/js/main.dc79625f.js"
+  ]
+}
