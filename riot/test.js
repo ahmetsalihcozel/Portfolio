@@ -1,4 +1,4 @@
-const riotKey = "RGAPI-22269120-a718-4a80-84fb-c69fa49d6a38"
+const riotKey = "RGAPI-3197babb-39fb-42f5-b801-f036191f1b31"
 var form = document.querySelector("button")
 form.addEventListener("click", summonerSearch)
 
